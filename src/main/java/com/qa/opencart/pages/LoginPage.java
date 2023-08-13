@@ -23,6 +23,7 @@ public class LoginPage {
     private By loginBtn = By.xpath("//input[@value='Login']");
     private By forgotPwdLink = By.xpath("//div[@class='form-group']//a[normalize-space()='Forgotten Password']");
     private By registerLink = By.xpath("//a[@class='list-group-item' and normalize-space()='Register']");
+    private By dummyLink = By.xpath("//a[@class='list-group-item' and normalize-space()='Register']");
 
 
     //2. Public Page constructors
