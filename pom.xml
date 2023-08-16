@@ -12,6 +12,7 @@
 	<name>March2023POMSeries</name>
 	<url>http://www.example.com</url>
 
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
@@ -27,13 +28,11 @@
 			<version>4.10.0</version>
 		</dependency>
 
-
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.0.0</version>
 		</dependency>
-
 
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -88,11 +87,11 @@
 
 
 		<!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
-		<dependency>
+	<!--	<dependency>
 			<groupId>com.itextpdf</groupId>
 			<artifactId>itextpdf</artifactId>
 			<version>5.5.13.3</version>
-		</dependency>
+		</dependency>-->
 
 	</dependencies>
 
@@ -121,7 +120,7 @@
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
 						<suiteXmlFile>src/test/resources/testrunners/testng_regression.xml</suiteXmlFile> 
-						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+				<!--		<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>-->
 					</suiteXmlFiles>
 
 					<argLine>
