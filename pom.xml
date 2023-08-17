@@ -114,12 +114,13 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.20</version>
+				
 
 				<configuration>
 					<forkCount>3</forkCount>
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/testrunners/testng_regression.xml</suiteXmlFile> 
+						<suiteXmlFile>C:\Users\Viswa\JavaProgramming\bin\march2023POMSeries\src\test\resources\testrunner\testng_regression.xml</suiteXmlFile> 
 				<!--		<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>-->
 					</suiteXmlFiles>
 
