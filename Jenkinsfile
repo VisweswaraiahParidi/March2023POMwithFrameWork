@@ -39,7 +39,7 @@ pipeline
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/VisweswaraiahParidi/March2023POMwithFrameWork'
-                    bat "mvn clean test -Dsurefire.suiteXmlFiles=/march2023POMSeries/src/test/resources/testrunner/testng_regression.xml"
+                    bat "mvn clean test -Dsurefire.suiteXmlFiles=C:\Users\Viswa\JavaProgramming\bin\march2023POMSeries\src\test\resources\testrunner\testng_regression.xml"
                     
                 }
             }
@@ -83,7 +83,7 @@ pipeline
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/VisweswaraiahParidi/March2023POMwithFrameWork'
-                    bat "mvn clean test -Dsurefire.suiteXmlFiles=/march2023POMSeries/src/test/resources/testrunners/testng_sanity.xml"
+                    bat "mvn clean test -Dsurefire.suiteXmlFiles=C:\Users\Viswa\JavaProgramming\bin\march2023POMSeries\src\test\resources\testrunner\testng_sanity.xml"
                     
                 }
             }
